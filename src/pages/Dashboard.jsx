@@ -10,21 +10,21 @@ const cities = [
   },
   {
     id: 2,
-    title: 'Kota Padang',
+    title: 'Kabupaten Solok',
     description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    imageUrl: '/images/kota-padang-logo.png',
+    imageUrl: '/src/img/logosolok.png',
   },
   {
     id: 3,
-    title: 'Kota Padang',
+    title: 'Kabupaten Solok Selatan',
     description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    imageUrl: '/images/kota-padang-logo.png',
+    imageUrl: '/src/img/logosolsel.png',
   },
   {
     id: 4,
-    title: 'Kota Padang',
+    title: 'Kota Padang Panjang',
     description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    imageUrl: '/images/kota-padang-logo.png',
+    imageUrl: '/src/img/logopp.png',
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ function Dashboard() {
             </div>
             {/* Right Content (Logo Sumbarpedia with Rumah Gadang) */}
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-end justify-center">
-              <div className="relative w-[300px] h-[200px] md:w-[400px] md:h-[250px] bg-rumah-gadang-logo bg-contain bg-no-repeat bg-center-right flex items-center justify-center">
+              <div className="relative w-[300px] h-[200px] md:w-[400px] md:h-[250px] bg-contain bg-no-repeat bg-center-right flex items-center justify-center">
                 <img src="/src/img/logosumped.png" alt="Sumbarpedia Logo" />
               </div>
             </div>
