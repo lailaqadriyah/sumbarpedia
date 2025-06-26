@@ -47,7 +47,7 @@ function CityCard({ title, description, imageUrl }) {
       <img src={imageUrl} alt={`${title} Logo`} className="w-24 h-24 mx-auto mb-4 object-contain" />
       <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
       <p className="text-gray-600 text-sm mb-4">{description}</p>
-      <a href="#" className="text-blue-600 hover:underline text-sm font-medium">Selengkapnya</a>
+      <a href="/deskripsi" className="text-blue-600 hover:underline text-sm font-medium">Selengkapnya</a>
     </div>
   );
 }
