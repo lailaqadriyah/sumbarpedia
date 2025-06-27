@@ -4,10 +4,15 @@ function BudayaPage() {
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center py-10 px-4">
       <div className="w-full max-w-5xl space-y-12 bg-white p-8 rounded-lg shadow">
+        
         {/* Bagian 1: Adat dan Falsafah Hidup */}
         <div>
-          <div className="w-full h-60 bg-gray-100 border rounded flex items-center justify-center mb-6">
-            <span className="text-gray-400">Foto</span>
+          <div className="w-full h-120 overflow-hidden rounded border mb-6">
+            <img
+              src="/src/img/budayapadang.jpg"
+              alt="Adat dan Falsafah Hidup"
+              className="w-full h-full object-cover"
+            />
           </div>
           <h2 className="text-xl font-bold text-red-600 mb-2">Adat dan Falsafah Hidup</h2>
           <p className="text-gray-700 text-justify text-sm">
@@ -19,8 +24,12 @@ function BudayaPage() {
 
         {/* Bagian 2: Seni Pertunjukan Tradisional */}
         <div className="grid md:grid-cols-2 gap-6 items-start">
-          <div className="order-1 md:order-none w-full h-48 bg-gray-100 border rounded flex items-center justify-center">
-            <span className="text-gray-400">Foto</span>
+          <div className="w-full  overflow-hidden rounded border">
+            <img
+              src="/src/img/taripiring.webp"
+              alt="Seni Tradisional"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div>
             <h2 className="text-xl font-bold text-red-600 mb-2">Seni Pertunjukan Tradisional</h2>
@@ -40,8 +49,12 @@ function BudayaPage() {
 
         {/* Bagian 3: Kuliner Khas Minangkabau */}
         <div className="grid md:grid-cols-2 gap-6 items-start">
-          <div className="md:order-2 w-full h-48 bg-gray-100 border rounded flex items-center justify-center">
-            <span className="text-gray-400">Foto</span>
+          <div className="md:order-2 w-full overflow-hidden rounded border">
+            <img
+              src="/src/img/rendang.webp"
+              alt="Kuliner Padang"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="md:order-1">
             <h2 className="text-xl font-bold text-red-600 mb-2">Kuliner Khas Minangkabau</h2>
@@ -61,8 +74,12 @@ function BudayaPage() {
 
         {/* Bagian 4: Pakaian Adat dan Arsitektur */}
         <div className="grid md:grid-cols-2 gap-6 items-start">
-          <div className="w-full h-48 bg-gray-100 border rounded flex items-center justify-center">
-            <span className="text-gray-400">Foto</span>
+          <div className="w-full overflow-hidden rounded border">
+            <img
+              src="/src/img/bajupadang.webp"
+              alt="Pakaian Adat"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div>
             <h2 className="text-xl font-bold text-red-600 mb-2">Pakaian Adat dan Arsitektur</h2>
@@ -76,8 +93,12 @@ function BudayaPage() {
 
         {/* Bagian 5: Festival dan Perayaan Budaya */}
         <div className="grid md:grid-cols-2 gap-6 items-start">
-          <div className="md:order-2 w-full h-48 bg-gray-100 border rounded flex items-center justify-center">
-            <span className="text-gray-400">Foto</span>
+          <div className="md:order-2 w-full overflow-hidden rounded border">
+            <img
+              src="/src/img/festival.jpg"
+              alt="Festival Budaya"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="md:order-1">
             <h2 className="text-xl font-bold text-red-600 mb-2">Festival dan Perayaan Budaya</h2>

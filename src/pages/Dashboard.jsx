@@ -5,7 +5,7 @@ const cities = [
   {
     id: 1,
     title: 'Kota Padang',
-    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Kota Padang Provinsi Sumatera Barat...',
+    description: '"Kota Padang adalah ibu kota dari Provinsi Sumatera Barat yang terletak di pesisir barat Pulau Sumatera, Indonesia...',
     imageUrl: '/src/img/logopadang.png', // Sesuaikan dengan path gambar yang benar
   },
   {
@@ -28,15 +28,15 @@ const cities = [
   },
   {
     id: 5,
-    title: 'Kota Padang',
+    title: 'Kota Bukittinggi',
     description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    imageUrl: '/images/kota-padang-logo.png',
+    imageUrl: '/src/img/logobkt.png',
   },
   {
     id: 6,
-    title: 'Kota Padang',
+    title: 'Kota Pariaman',
     description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    imageUrl: '/images/kota-padang-logo.png',
+    imageUrl: '/src/img/logopariaman.png',
   },
 ];
 
