@@ -51,27 +51,27 @@ Arsitektur Rumah Gadang, rumah adat Minangkabau dengan atap gonjong (menyerupai 
     sections: [
       {
         title: "Adat dan Struktur Sosial",
-        image: "/src/img/budayasolok1.jpg",
+        image: "/src/img/budayasolok.jpg",
         content: `Kabupaten Solok memiliki adat yang berakar kuat pada budaya Minangkabau. Struktur masyarakat adat terbagi atas suku-suku dengan sistem kekerabatan matrilineal, di mana garis keturunan ditarik dari pihak ibu. Setiap nagari (desa adat) memiliki balai adat sebagai pusat musyawarah dan pengambilan keputusan adat.`
       },
       {
         title: "Seni dan Tradisi Lisan",
-        image: "/src/img/budayasolok2.jpg",
+        image: "/src/img/rabab.jpg",
         content: `Kesenian tradisional seperti Rabab Pesisir dan Pantun Adat sering ditampilkan dalam upacara adat maupun perhelatan nagari. Selain sebagai hiburan, seni ini berfungsi sebagai media pendidikan dan pewarisan nilai-nilai leluhur.`
       },
       {
         title: "Kuliner Tradisional",
-        image: "/src/img/budayasolok3.jpg",
+        image: "/src/img/budayasolok2.jpeg",
         content: `Solok dikenal dengan kuliner khas seperti Bareh Solok (beras Solok) yang terkenal pulen dan wangi. Hidangan seperti gulai itiak lado mudo dan lamang tapai menjadi simbol kekayaan rasa lokal.`
       },
       {
         title: "Rumah Adat dan Lingkungan Alam",
-        image: "/src/img/budayasolok4.jpg",
+        image: "/src/img/singkarak.jpg",
         content: `Rumah adat di Solok mengikuti bentuk Rumah Gadang Minangkabau yang dihiasi ukiran khas. Kabupaten Solok juga dikenal dengan Danau Singkarak dan Danau Diatas-Dibawah yang menjadi bagian dari identitas budaya dan alam yang harmonis.`
       },
       {
         title: "Festival Nagari dan Tradisi Pertanian",
-        image: "/src/img/budayasolok5.jpg",
+        image: "/src/img/panen.jpeg",
         content: `Festival panen dan pacu jawi (balapan sapi sawah) merupakan tradisi masyarakat petani Solok yang masih dilestarikan. Acara ini memperkuat kebersamaan dan rasa syukur kepada alam.`
       }
     ]
