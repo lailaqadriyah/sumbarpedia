@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import Deskripsi from './pages/DeskripsiKota';
-import SejarahPadang from './pages/SejarahPadang';
-import BudayaPage from './pages/BudayaPadang';
+
+import BudayaPage from './pages/BudayaKota';
+import TentangSaya from './pages/About';
+import DeskripsiKota from './pages/DeskripsiKota';
+import SejarahKota from './pages/SejarahKota';
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/deskripsi" element={<Deskripsi />} />
-            <Route path="/sejarah-padang" element={<SejarahPadang />} />
+            <Route path="/deskripsi/:slug" element={<DeskripsiKota />} />
+            <Route path="/sejarah/:slug" element={<SejarahKota />} />
+            <Route path="/budaya/:slug" element={<BudayaPage />} />
             <Route path="/budaya-padang" element={<BudayaPage />} />
+            <Route path="/about" element={<TentangSaya />} />
           </Routes>
         </main>
 
