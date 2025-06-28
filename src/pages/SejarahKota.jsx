@@ -124,12 +124,12 @@ function SejarahKota() {
 
             {/* Kembali */}
             <div className="mt-4">
-              <Link
-                to="/"
+              {/* <Link
+                to=""
                 className="text-blue-600 hover:text-blue-700 font-medium text-sm"
               >
                 ← Kembali ke Beranda
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
